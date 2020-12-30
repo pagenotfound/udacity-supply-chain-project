@@ -14,7 +14,7 @@ The DApp User Interface when running should look like...
 
 ## Diagrams
 
-![Diagrams](diagrams/Udacity-Supply-Chain.png)
+![Diagrams](project-6/diagrams/Udacity-Supply-Chain.png)
 
 ## Getting Started
 
