@@ -2542,6 +2542,68 @@
     "version": "0.4.25+commit.59dbf8f1.Emscripten.clang"
   },
   "networks": {
+    "4": {
+      "events": {
+        "0x460ac85606b41cd110c6681291e626a42542e5f7e6aa8c8a3629ecafe88abffb": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "distributorAdded",
+          "type": "event"
+        },
+        "0x29a71ba64557e7f004bde3a9d4c8eaa1f4f4e43e1401170f98b9fd3052b99049": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "distributorRemoved",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xcD3261E5808112433087c202dfC05b7c0605339E",
+      "transactionHash": "0x3cc38446ae664fa480fabee692b72b86f0fb4a37dce4eedc992c950a6de22207"
+    },
+    "5777": {
+      "events": {
+        "0x460ac85606b41cd110c6681291e626a42542e5f7e6aa8c8a3629ecafe88abffb": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "distributorAdded",
+          "type": "event"
+        },
+        "0x29a71ba64557e7f004bde3a9d4c8eaa1f4f4e43e1401170f98b9fd3052b99049": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "distributorRemoved",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x05E04C64c19C48a33e89c41d18A52a6F2a44Aafc",
+      "transactionHash": "0xce78f548acfeae841d4f1221c47ae8803b2e33afb622abdea00c240a306dcef4"
+    },
     "1609036787610": {
       "events": {
         "0x460ac85606b41cd110c6681291e626a42542e5f7e6aa8c8a3629ecafe88abffb": {
@@ -2634,10 +2696,41 @@
       "links": {},
       "address": "0xd22De155853B67cE1cA3693FBE52EE958f755E7b",
       "transactionHash": "0x9be3c56caafabfb8300ba7285b7cce33f9d708a904e9206a34e6964cfb113b5b"
+    },
+    "1609447761670": {
+      "events": {
+        "0x460ac85606b41cd110c6681291e626a42542e5f7e6aa8c8a3629ecafe88abffb": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "distributorAdded",
+          "type": "event"
+        },
+        "0x29a71ba64557e7f004bde3a9d4c8eaa1f4f4e43e1401170f98b9fd3052b99049": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "distributorRemoved",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xd22De155853B67cE1cA3693FBE52EE958f755E7b",
+      "transactionHash": "0x9be3c56caafabfb8300ba7285b7cce33f9d708a904e9206a34e6964cfb113b5b"
     }
   },
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-27T23:31:10.564Z",
+  "updatedAt": "2020-12-31T21:28:51.372Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

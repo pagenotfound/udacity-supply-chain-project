@@ -1,20 +1,34 @@
-# Supply chain & data auditing
+## Versions
 
-This repository containts an Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer. The user story is similar to any commonly used supply chain process. A Seller can add items to the inventory system stored in the blockchain. A Buyer can purchase such items from the inventory system. Additionally a Seller can mark an item as Shipped, and similarly a Buyer can mark an item as Received.
+Truffle : v5.1.56 (core: 5.1.56)
 
-The DApp User Interface when running should look like...
+Node    : v14.15.1
 
-![truffle test](images/ftc_product_overview.png)
-
-![truffle test](images/ftc_farm_details.png)
-
-![truffle test](images/ftc_product_details.png)
-
-![truffle test](images/ftc_transaction_history.png)
+web3    : ^1.3.1
 
 ## Diagrams
 
 ![Diagrams](project-6/diagrams/Udacity-Supply-Chain.png)
+
+## Contract
+
+```
+0xBCBC37D56D3BA775BdF0320D13250f66F27BEAE1
+```
+Etherscan link: https://rinkeby.etherscan.io/address/0xBCBC37D56D3BA775BdF0320D13250f66F27BEAE1
+
+
+## Transactions in Rinkeby
+
+Transaction History
+Harvested   - 0x758b9c82010ec9b8badd6358f3008903a3315852203802b1f4f8c9e6e6760176
+Processed   - 0x138f6b6998ea32605db1134c987bfefb934b04c09bf670d0b2041ceca13c7065
+Pack        - 0xa62515bb4558528e394f2cfcf99ce5773cc3c3a71996d4e72ab5fb95aae40ef3
+ForSale     - 0xc218625f7bbac1422a27b0b376be06d4b7f77f81f850299b02215dbcb808d7cf
+Sold        - 0x09effeb0b33d9108ec76dcd1e55340298bd93694b6ca74ee3d3d79296db089d8
+Shipped     - 0x7eabf20623d7fc9428de307a2f82193d4c813250f7df1b30dd73995b9715a062
+Received    - 0x157c2c5b1d485ca4f89ada817b7df1542be6d2ce95fb6dced4460f046f2bbd07
+Purchase    - 0x7f4b72dfe7fb68a1110e10bb7ef0e7d7e21756d8912f6993b11c139379eda1f8
 
 ## Getting Started
 
@@ -84,6 +98,12 @@ truffle test
 ```
 
 All 10 tests should pass.
+
+Migrate to Rinkbey - Test Network
+
+```
+ truffle migrate --reset --network rinkeby
+```
 
 ![truffle test](images/truffle_test.png)
 
